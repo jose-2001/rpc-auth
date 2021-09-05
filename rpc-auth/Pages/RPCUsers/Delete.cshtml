@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id:int?}"
 @model rpc_auth.Pages.RPCUsers.DeleteModel
 
 @{
@@ -43,7 +43,7 @@
             @Html.DisplayFor(model => model.RPCUser.Birthdate)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="RPCUser.ID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
