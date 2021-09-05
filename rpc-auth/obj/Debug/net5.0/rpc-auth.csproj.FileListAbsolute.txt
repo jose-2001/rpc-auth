@@ -144,3 +144,8 @@ C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\Tall
 C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\ref\rpc-auth.dll
 C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\rpc-auth.pdb
 C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\rpc-auth.genruntimeconfig.cache
+C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\Razor\Pages\RPCUsers\Create.cshtml.g.cs
+C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\Razor\Pages\RPCUsers\Delete.cshtml.g.cs
+C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\Razor\Pages\RPCUsers\Details.cshtml.g.cs
+C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\Razor\Pages\RPCUsers\Edit.cshtml.g.cs
+C:\Users\User\Documents\ICESI\5to semestre\Proyecto integrador\VS workspace\TallerAspDotNet06Sept\rpc-auth\obj\Debug\net5.0\Razor\Pages\RPCUsers\Index.cshtml.g.cs
