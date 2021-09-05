@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace rpc_auth.Models
 {
-    public class User
+    public class RPCUser
     {
         public int ID { get; set; }
         public string username { get; set; }
