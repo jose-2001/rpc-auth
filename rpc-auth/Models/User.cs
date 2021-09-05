@@ -10,9 +10,9 @@ namespace rpc_auth.Models
     {
         public int ID { get; set; }
         public string username { get; set; }
-        private string password { get; set; }
-        private string FirstName { get; set; }
-        private string LastName{ get; set; }
+        public string password { get; set; }
+        public string FirstName { get; set; }
+        public string LastName{ get; set; }
         [DataType(DataType.Date)]
         public DateTime Birthdate { get; set; }
 
