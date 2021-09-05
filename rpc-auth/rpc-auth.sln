@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpc-auth", "rpc-auth.csproj", "{18C6F83A-325C-4891-86A1-6AC4E40E5727}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpc-auth", "rpc-auth.csproj", "{7248B0F9-5B89-404A-B736-37FFD96115D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18C6F83A-325C-4891-86A1-6AC4E40E5727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18C6F83A-325C-4891-86A1-6AC4E40E5727}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18C6F83A-325C-4891-86A1-6AC4E40E5727}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18C6F83A-325C-4891-86A1-6AC4E40E5727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7248B0F9-5B89-404A-B736-37FFD96115D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7248B0F9-5B89-404A-B736-37FFD96115D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7248B0F9-5B89-404A-B736-37FFD96115D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7248B0F9-5B89-404A-B736-37FFD96115D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A29CF937-E1CA-4349-80E3-8680DC7BDA5F}
+		SolutionGuid = {01C1CFE9-5A7D-426C-AD49-4B5DB70F8D96}
 	EndGlobalSection
 EndGlobal
