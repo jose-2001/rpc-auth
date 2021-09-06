@@ -14,6 +14,6 @@ namespace rpc_auth.Data
         {
         }
 
-        public DbSet<rpc_auth.Models.User> User { get; set; }
+        public DbSet<rpc_auth.Models.RPCUser> RPCUser { get; set; }
     }
 }
