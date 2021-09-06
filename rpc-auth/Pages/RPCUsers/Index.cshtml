@@ -71,6 +71,9 @@ else
         <br>
         <input type="submit" value="Sign In" />
     </form>
+    @if (Model.Tryusername != null && !IndexModel.SignedIn) {
+        <p>Wrong username or password</p>
+    }
     <hr />
     <h2>New User</h2>
     <form method="get" action="/RPCUsers/Create">

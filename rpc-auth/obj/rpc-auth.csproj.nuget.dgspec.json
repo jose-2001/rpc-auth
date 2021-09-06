@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\rpc-auth.csproj": {}
+    "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\rpc-auth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\rpc-auth.csproj": {
+    "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\rpc-auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\rpc-auth.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\rpc-auth.csproj",
         "projectName": "rpc-auth",
-        "projectPath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\rpc-auth.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\rpc-auth.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6q+zZSs7zpsURdlWivCaFdIrivsAt481H8tJHWNZLthM28Ff6KDNTcSgWC4GtuZVb0MNVrAQdOywWRtsblW6AA==",
+  "dgSpecHash": "hGN3ZfWo9/sA7RGxPrXmaFJojaiB0zG4fXU4nUJDy+tWCMynfr0dEX2YEF1Rnk5FPBfZWRNTYD+mSckZJIwsVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\TallerAspDotNet06Sept\\rpc-auth\\rpc-auth.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\ICESI\\5to semestre\\Proyecto integrador\\VS workspace\\Asp.netTaller06Sept\\rpc-auth\\rpc-auth\\rpc-auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
