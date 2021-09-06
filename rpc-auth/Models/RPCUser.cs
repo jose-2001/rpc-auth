@@ -22,6 +22,6 @@ namespace rpc_auth.Models
         [DataType(DataType.Date)]
         [Required]
         public DateTime Birthdate { get; set; }
-
+        
     }
 }

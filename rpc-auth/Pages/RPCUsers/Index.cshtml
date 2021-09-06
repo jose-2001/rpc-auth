@@ -6,49 +6,70 @@
 }
 
 <h1>Index</h1>
-
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.RPCUser[0].username)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RPCUser[0].FirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RPCUser[0].LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RPCUser[0].Birthdate)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.RPCUser) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.username)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Birthdate)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
+@if (IndexModel.SignedIn)
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.RPCUser[0].username)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RPCUser[0].FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RPCUser[0].LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RPCUser[0].Birthdate)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.RPCUser)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.username)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Birthdate)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
-    </tbody>
-</table>
+else
+{
+    <div>
+        <h2>Sign In</h2>
+        <form method="post">
+            <label for="usernameTF">Username: </label>
+            <input type="text"  asp-for="Tryusername">
+            <br>
+            <label for="passwordTF">Password: </label>
+            <input type="password" asp-for="Trypassword">
+            <br>
+            <input type="submit" value="Sign In" />
+        </form>
+        <hr />
+        <h2>New User</h2>
+        <button onclick="">Sign Up</button>
+    </div>
+}
