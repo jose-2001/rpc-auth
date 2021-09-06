@@ -23,7 +23,9 @@ namespace rpc_auth.Pages.RPCUsers
         public string Trypassword{ get; set; }
         [BindProperty(SupportsGet = true)]
         public RPCUser SignedUser { get; set; }
-        
+        [BindProperty(SupportsGet = true)]
+        public bool SigningOut{ get; set; }
+
 
 
         public IndexModel(rpc_auth.Data.rpc_authContext context)
@@ -42,16 +44,23 @@ namespace rpc_auth.Pages.RPCUsers
         }
         public async Task<IActionResult> OnPostAsync()
         {
-            SignedUser = await _context.RPCUser.FirstOrDefaultAsync(m => m.username == Tryusername);
-
-            if (SignedUser == null)
+            if (SigningOut)
             {
-                return Page();
+                SignedIn = false;
+                SignedUser = null;
             }
-            SignedIn = true;
-            RPCUser = await _context.RPCUser.ToListAsync();
+            else { 
+                SignedUser = await _context.RPCUser.FirstOrDefaultAsync(m => m.username == Tryusername && m.password == Trypassword);
+            
+                if (SignedUser == null)
+                {
+                    return Page();
+                }
+                SignedIn = true;
+                RPCUser = await _context.RPCUser.ToListAsync();
+               
+            }
             return Page();
-            //await _context.SaveChangesAsync();
         }
     }
 }
